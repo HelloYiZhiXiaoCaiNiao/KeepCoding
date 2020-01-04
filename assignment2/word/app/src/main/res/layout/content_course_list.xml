@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="www.look.word.CourseListActivity"
+    tools:showIn="@layout/activity_course_list">
+
+    <ListView
+        android:id="@+id/lv_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f3f3"
+        android:divider="#f3f3f3"
+        android:layout_margin="5dp"
+        android:dividerHeight="1px" />
+</android.support.constraint.ConstraintLayout>
